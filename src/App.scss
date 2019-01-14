@@ -1,2 +1,26 @@
 .app {
+  width: 100vw;
+  max-width: 45rem;
+  margin: 5rem 0 0 0;
+
+  header {
+    text-align: center;
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    p {
+      color: gray;
+    }
+  }
+
+  .loading-items {
+    text-align: center;
+
+    svg {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
 }

@@ -1,0 +1,43 @@
+.button {
+  align-items: center;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #ccc;
+  cursor: pointer;
+  display: flex;
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  text-align: center;
+
+  &:hover {
+    background-color: #ccc;
+  }
+
+  svg {
+    margin: 0 0 0 0.5rem;
+  }
+
+  &--full {
+    width: 100%;
+  }
+
+  &--primary {
+    background-color: #00a8ff;
+    border-color: #0186cc;
+    color: white;
+
+    &:hover {
+      background-color: #0186cc;
+    }
+  }
+
+  &--disabled {
+    background-color: #ccc;
+    color: white;
+    cursor: not-allowed;
+  }
+}
